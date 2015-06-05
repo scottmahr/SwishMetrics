@@ -86,7 +86,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 router.get('/', function(req, res) {
-    res.json({ success: 'hooray! welcome to our api!' });   
+    res.json({ success: 'hooray! welcome to our api, this is new!' });   
 });
 
 // ----------------------------------------------------
